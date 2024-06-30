@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(144, 144, 169);
+    /* padding: 5%; */
+    padding-top: 10vh;
+    padding-left: 8vw;
+}
+
+.container{
+    height: 80vh;
+    width: 80vw;
+    background-color: #fff;
+    opacity: 50%;
+    border-radius: 5px;
+}
+
+.form-details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text{
+    margin-top: 10px;
+    font-size: 20px;
+    color: blue;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 800;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.name .first-name{
+    height: 7vh;
+    width: 20vw;
+    padding: 10px;
+    outline: none;
+    background-color: #ADD8E6;
+    border: none;
+    color: rgb(66, 66, 130);
+    border-radius: 5px;
+}
+
+.name .last-name{
+    height: 7vh;
+    width: 20vw;
+    padding: 10px;
+    outline: none;
+    background-color: #ADD8E6;
+    border: none;
+    color: rgb(66, 66, 130);
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: rgb(145, 78, 56);
+    font-family:sans-serif;
+    font-weight: 600;
+}
+
+.email-phone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.email-phone .email{
+    height: 7vh;
+    width: 20vw;
+    padding: 10px;
+    outline: none;
+    background-color: #ADD8E6;
+    border: none;
+    color: rgb(66, 66, 130);
+    border-radius: 5px;
+}
+
+.email-phone .Number{
+    height: 7vh;
+    width: 20vw;
+    padding: 10px;
+    outline: none;
+    background-color: #ADD8E6;
+    border: none;
+    color: rgb(66, 66, 130);
+    border-radius: 5px;
+}
+
+.address-of{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.address-of .address{
+    height: 7vh;
+    width: 60vw;
+    padding: 10px;
+    outline: none;
+    background-color: #ADD8E6;
+    border: none;
+    color: rgb(66, 66, 130);
+    border-radius: 5px;
+}
+
+.address ::placeholder{
+    text-align: center;
+}
+
+.text-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.text-a .unique-text{
+    height: 10vh;
+    width: 60vw;
+    padding: 10px;
+    outline: none;
+    background-color: #ADD8E6;
+    border: none;
+    color: rgb(66, 66, 130);
+    border-radius: 5px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button .btn{
+    height: 6vh;
+    width: 12vw;
+    background-color: rgb(9, 9, 189);
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.button .btn:hover{
+    background-color: blue;
+    transition: .2s linear;
+    font-family: sans-serif;
+}
+
+.thanks p{
+    text-align:center;
+    color: green;
+    margin-top: 20px;
+    font-size: 12px;
+}
